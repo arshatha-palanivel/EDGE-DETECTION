@@ -30,7 +30,7 @@ REGISTER NO.:212222230012
 Convert image to grayscale and remove noise:
 import cv2
 import matplotlib.pyplot as plt
-img=cv2.imread("bridge.jpg",0)
+img=cv2.imread("rose.jpg",0)
 gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
 gray = cv2.GaussianBlur(gray,(3,3),0)
 ```
